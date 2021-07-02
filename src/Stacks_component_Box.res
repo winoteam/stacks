@@ -32,7 +32,6 @@ let make = (
   ~wrap: option<responsiveProp<wrap>>=?,
   ~flex: option<responsiveProp<flex>>=?,
   // View props
-  ~accessibilityActions=?,
   ~accessibilityElementsHidden=?,
   ~accessibilityHint=?,
   ~accessibilityIgnoresInvertColors=?,
@@ -158,7 +157,6 @@ let make = (
   }
 
   <View
-    ?accessibilityActions
     ?accessibilityElementsHidden
     ?accessibilityHint
     ?accessibilityIgnoresInvertColors

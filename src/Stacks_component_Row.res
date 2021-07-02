@@ -24,7 +24,6 @@ let make = (
   ~paddingEnd=?,
   ~paddingStart=?,
   // View props
-  ~accessibilityActions=?,
   ~accessibilityElementsHidden=?,
   ~accessibilityHint=?,
   ~accessibilityIgnoresInvertColors=?,
@@ -95,7 +94,6 @@ let make = (
       ?paddingRight
       ?paddingEnd
       ?paddingStart
-      ?accessibilityActions
       ?accessibilityElementsHidden
       ?accessibilityHint
       ?accessibilityIgnoresInvertColors

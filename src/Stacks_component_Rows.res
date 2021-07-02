@@ -49,7 +49,6 @@ let make = (
   ~marginEnd=?,
   ~marginStart=?,
   // View props
-  ~accessibilityActions=?,
   ~accessibilityElementsHidden=?,
   ~accessibilityHint=?,
   ~accessibilityIgnoresInvertColors=?,
@@ -145,7 +144,6 @@ let make = (
       ?marginRight
       ?marginEnd
       ?marginStart
-      ?accessibilityActions
       ?accessibilityElementsHidden
       ?accessibilityHint
       ?accessibilityIgnoresInvertColors

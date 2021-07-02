@@ -37,7 +37,6 @@ let make = (
   ~wrap=?,
   ~flex=?,
   // View props
-  ~accessibilityActions=?,
   ~accessibilityElementsHidden=?,
   ~accessibilityHint=?,
   ~accessibilityIgnoresInvertColors=?,
@@ -119,7 +118,6 @@ let make = (
     ?direction
     ?wrap
     ?flex
-    ?accessibilityActions
     ?accessibilityElementsHidden
     ?accessibilityHint
     ?accessibilityIgnoresInvertColors
